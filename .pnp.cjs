@@ -7021,6 +7021,32 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
+      ["react-spinners", [\
+        ["npm:0.13.4", {\
+          "packageLocation": "./.yarn/cache/react-spinners-npm-0.13.4-b8116576f3-ae9430bc8a.zip/node_modules/react-spinners/",\
+          "packageDependencies": [\
+            ["react-spinners", "npm:0.13.4"]\
+          ],\
+          "linkType": "SOFT"\
+        }],\
+        ["virtual:8a408544d9a7b96cb7451cf7992b98efebbdb7d2674b8b651d0e0893615d3bb514702267e4fcda170782da61d6c2e2681906aa980cca19d27f4242c456a3879c#npm:0.13.4", {\
+          "packageLocation": "./.yarn/__virtual__/react-spinners-virtual-3ce6226ce4/0/cache/react-spinners-npm-0.13.4-b8116576f3-ae9430bc8a.zip/node_modules/react-spinners/",\
+          "packageDependencies": [\
+            ["react-spinners", "virtual:8a408544d9a7b96cb7451cf7992b98efebbdb7d2674b8b651d0e0893615d3bb514702267e4fcda170782da61d6c2e2681906aa980cca19d27f4242c456a3879c#npm:0.13.4"],\
+            ["@types/react", "npm:18.0.14"],\
+            ["@types/react-dom", "npm:18.0.5"],\
+            ["react", "npm:18.2.0"],\
+            ["react-dom", "virtual:6166e23d6dace591d4b301232983a12c2891dc70180b4a6075e9eb950c5ab4f88ee0ba8fd577b804f6e8a515eff14e3fcc719b13e22c847b4c6bcf1d3e538ff6#npm:18.2.0"]\
+          ],\
+          "packagePeers": [\
+            "@types/react-dom",\
+            "@types/react",\
+            "react-dom",\
+            "react"\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
       ["read-cache", [\
         ["npm:1.0.0", {\
           "packageLocation": "./.yarn/cache/read-cache-npm-1.0.0-00fa89ed05-cffc728b9e.zip/node_modules/read-cache/",\
@@ -7902,6 +7928,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["react", "npm:18.2.0"],\
             ["react-dom", "virtual:6166e23d6dace591d4b301232983a12c2891dc70180b4a6075e9eb950c5ab4f88ee0ba8fd577b804f6e8a515eff14e3fcc719b13e22c847b4c6bcf1d3e538ff6#npm:18.2.0"],\
             ["react-plotly.js", "virtual:8a408544d9a7b96cb7451cf7992b98efebbdb7d2674b8b651d0e0893615d3bb514702267e4fcda170782da61d6c2e2681906aa980cca19d27f4242c456a3879c#npm:2.5.1"],\
+            ["react-spinners", "virtual:8a408544d9a7b96cb7451cf7992b98efebbdb7d2674b8b651d0e0893615d3bb514702267e4fcda170782da61d6c2e2681906aa980cca19d27f4242c456a3879c#npm:0.13.4"],\
             ["typescript", "patch:typescript@npm%3A4.7.4#~builtin<compat/typescript>::version=4.7.4&hash=a1c5e5"],\
             ["zod", "npm:3.18.0"]\
           ],\
