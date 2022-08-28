@@ -1,0 +1,14 @@
+{
+  "name": "d3-demos",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:modern-dev-dude/d3-demos.git",
+  "author": "Modern Dev Dude <jason@moderndevdude.com>",
+  "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "t3-plotly-01",
+    "t3-d3-01"
+  ],
+  "packageManager": "yarn@3.2.3"
+}
