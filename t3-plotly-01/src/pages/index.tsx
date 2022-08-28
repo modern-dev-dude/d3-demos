@@ -1,6 +1,19 @@
 import type { NextPage } from "next";
 import Head from "next/head";
 
+// import dynamic from 'next/dynamic';
+
+// const PlotlyGraph = dynamic(
+//     () =>
+//         import(
+//             '../graphs/graph.component'
+//         ),
+//     {
+//         ssr: false,
+//         loading: () => <>Loading...</>,
+//     },
+// );
+
 const Home: NextPage = () => {
   return (
     <>
@@ -13,26 +26,9 @@ const Home: NextPage = () => {
         <h1>
           Create <span>T3</span> App
         </h1>
-
-        <div>
-          <h3>This stack uses:</h3>
-          <ul>
-            <li>
-              <a href="https://nextjs.org" target="_blank" rel="noreferrer">
-                Next.js
-              </a>
-            </li>
-            <li>
-              <a
-                href="https://typescriptlang.org"
-                target="_blank"
-                rel="noreferrer"
-              >
-                TypeScript
-              </a>
-            </li>
-          </ul>
-        </div>
+        
+        
+        
       </div>
     </>
   );

@@ -10,5 +10,10 @@
     "t3-plotly-01",
     "t3-d3-01"
   ],
-  "packageManager": "yarn@3.2.3"
+  "packageManager": "yarn@3.2.3",
+  "devDependencies": {
+    "@yarnpkg/pnpify": "^3.1.5",
+    "prettier": "^2.7.1",
+    "typescript": "^4.8.2"
+  }
 }
